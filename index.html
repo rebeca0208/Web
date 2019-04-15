@@ -1,124 +1,124 @@
-  <!DOCTYPE html>
-  <html lang="en">
-  
-  <head>
-      <!-- All meta tags should be first in the header-->
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- Title of dashboard-->
-      <title>Web HW</title>
-      <!-- Bootstrap links -->
-      
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-   
-      <!-- Scripts-->
-      <script
-      src="https://code.jquery.com/jquery-3.2.1.min.js"
-      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-      crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-      
-      <link rel="stylesheet" href="style.css">
-      </head>
+<!DOCTYPE html>
+<html lang="en">
 
-      <body>
-        <!-- navbar: A horizontal bar,top of a web page, offering a number of links to help the viewer to navigate the web site. Origin: Shortening of navigation bar. -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#target_collapse" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                    <div class="col-md-1"></div>
-                      <!--Name of the site on the left of the nav which allows users to return to the landing page from any page.-->
-                      <a class="navbar-brand" href="index.html" ><span class="glyphicon glyphicon-home" aria-hidden="true"></span><strong> Latitude</strong>
-                      </a>
-                  </div>
-                  <!--navbar named "Plots" which provides links to each individual visualization page.-->
-                  <div class ="collapse navbar-collapse" id="target_collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class ="nav-item dropdown">
-                            <a class ="nav-link dropdown-toggle" data-toggle="dropdown" data-target ="#dropdown_target" href="#"> <span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Plots
-                            <span class ="caret"></span>
-                            </a>
-                            <ul class ="dropdown-menu" aria-labelledby="dropdown_target">
-                              <li><a class ="dropdown-item" href="temp.html">Max Temerature</a></li>
-                              <li><a class ="dropdown-item" href="humidity.html">Humidity</a></li>
-                              <li><a class ="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
-                             <li><a class ="dropdown-item" href="wind.html">Wind Speed</a></li>
-                          </ul>
-                        </li>                  
-                          <!--"Comparisons" which links to the comparisons page-->
-                          <li class = "nav-item">
-                            <a class ="nav-link" href="comparisons.html"><span class="glyphicon glyphicon-retweet" aria-hidden="true"></span> Comparisons</a></li>
-                          <!--"Data" which links to the data page-->
-                          <li class ="nav-item"><a class ="nav-link" href="data.html"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Data</a></li>
+<head>
+    <!-- All meta tags should be first in the header-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title of dashboard-->
+    <title>Web HW</title>
+    <!-- Bootstrap links -->
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+ 
+    <!-- Scripts-->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    </head>
 
-      <!-- End of the Navigation bar-->
+    <body>
+      <!-- navbar: A horizontal bar,top of a web page, offering a number of links to help the viewer to navigate the web site. Origin: Shortening of navigation bar. -->
+      <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#target_collapse" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+              
+                  <div class="col-md-1"></div>
+                  <div class="col-md-1"></div>
+                  <div class="col-md-1"></div>
+                    <!--Name of the site on the left of the nav which allows users to return to the landing page from any page.-->
+                    <a class="navbar-brand" href="index.html" ><span class="glyphicon glyphicon-home" aria-hidden="true"></span><strong> Latitude</strong>
+                    </a>
+                </div>
+                <!--navbar named "Plots" which provides links to each individual visualization page.-->
+                <div class ="collapse navbar-collapse" id="target_collapse">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li class ="nav-item dropdown">
+                          <a class ="nav-link dropdown-toggle" data-toggle="dropdown" data-target ="#dropdown_target" href="#"> <span class="glyphicon glyphicon-stats" aria-hidden="true"></span> Plots
+                          <span class ="caret"></span>
+                          </a>
+                          <ul class ="dropdown-menu" aria-labelledby="dropdown_target">
+                            <li><a class ="dropdown-item" href="temp.html">Max Temerature</a></li>
+                            <li><a class ="dropdown-item" href="humidity.html">Humidity</a></li>
+                            <li><a class ="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                           <li><a class ="dropdown-item" href="wind.html">Wind Speed</a></li>
+                        </ul>
+                      </li>                  
+                        <!--"Comparisons" which links to the comparisons page-->
+                        <li class = "nav-item">
+                          <a class ="nav-link" href="comparisons.html"><span class="glyphicon glyphicon-retweet" aria-hidden="true"></span> Comparisons</a></li>
+                        <!--"Data" which links to the data page-->
+                        <li class ="nav-item"><a class ="nav-link" href="data.html"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Data</a></li>
 
-      <div class ="container-fluid">
-        <div class="row">
-          <!--side gap for 1 col-->
-          <div class ="col-md-8">
-            <div class ="panel panel-default">
-              <!-- Main panel-->
-              <div class="panel-heading panel-heading-custom">
-                <h3>Summary: Latitude and Longitude </h3>
-              </div>
-              <div class="panel-body">
-                <img class="img-responsive" src="Resources/assets/images/Fig1.png" style = "width: 50%" alt="Max Temprature plot">
-                <p>
-                  The purpose of this project was to analyze how weather changes as you get closer to the equator visualize this, we pulled the weather data from  500+ cities across the world of varying distance from the equator. To accomplish this, we are utilize an OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
-                </p>
-                <p>
-                  Objective is to build a series of scatter plots using Matplotlib, to showcase the relationship between various aspects of weather (Temperature,Humidity, Cloudiness, Wind Spped) vs. latitude.
-                </p>
-                <p>
-                  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any treads or correlations witnessed.</p>
-              </div>
+    <!-- End of the Navigation bar-->
+
+    <div class ="container-fluid">
+      <div class="row">
+        <!--side gap for 1 col-->
+        <div class ="col-md-8">
+          <div class ="panel panel-default">
+            <!-- Main panel-->
+            <div class="panel-heading panel-heading-custom">
+              <h3>Summary: Latitude and Longitude </h3>
+            </div>
+            <div class="panel-body">
+              <img class="img-responsive" src="Resources/images/Fig1.png" style = "width: 50%" alt="Max Temprature plot">
+              <p>
+                The purpose of this project was to analyze how weather changes as you get closer to the equator visualize this, we pulled the weather data from  500+ cities across the world of varying distance from the equator. To accomplish this, we are utilize an OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.
+              </p>
+              <p>
+                Objective is to build a series of scatter plots using Matplotlib, to showcase the relationship between various aspects of weather (Temperature,Humidity, Cloudiness, Wind Spped) vs. latitude.
+              </p>
+              <p>
+                This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any treads or correlations witnessed.</p>
             </div>
           </div>
-     
-          <div class ="col-md-4">
-            <div class ="panel panel-default">
-              <!--side panel-->
-              <div class="panel-heading panel-heading-custom">
-                <h4>Visualizations</h4>
-              </div>
-              <div class="panel-body"> 
-                <div class="row">
-                  <div class="col-lg-6 col-md-6 col-sm-3 col-xs-3"><a href="temp.html">
-                      <img class="img-responsive" src="Resources/assets/images/Fig1.png"  alt= "Max Temprature plot"></a>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-3 col-xs-3"><a href="humidity.html">
-                      <img class="img-responsive" src="Resources/assets/images/Fig2.png"  alt= "Humidity plot"></a>
-                  </div>
-               
-                  <div class="col-lg-6 col-md-6 col-sm-3 col-xs-3"><a href="cloudiness.html">
-                    <img class="img-responsive" src="Resources/assets/images/Fig3.png" alt= "Cloudiness plot"></a>
-                  </div>
-                  <div class="col-lg-6 col-md-6 col-sm-3 col-xs-3 "><a href="wind.html">
-                    <img class="img-responsive" src="Resources/assets/images/Fig4.png" alt= "Wind Speed plot"></a>
-                  </div>
+        </div>
+   
+        <div class ="col-md-4">
+          <div class ="panel panel-default">
+            <!--side panel-->
+            <div class="panel-heading panel-heading-custom">
+              <h4>Visualizations</h4>
+            </div>
+            <div class="panel-body"> 
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-3"><a href="temp.html">
+                    <img class="img-responsive" src="Resources/images/Fig1.png"  alt= "Max Temprature plot"></a>
                 </div>
-         
-        </div>  
-      </div>
-      
-           <!-- Footer -->
-    <footer>
-        <!-- Copyright -->
-        <p>  <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>
-          Copyright Coding Bootcamp 2019
-           </p>      
-      </footer>
-     
-    </body>
-    </html>
+                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-3"><a href="humidity.html">
+                    <img class="img-responsive" src="Resources/images/Fig2.png"  alt= "Humidity plot"></a>
+                </div>
+             
+                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-3"><a href="cloudiness.html">
+                  <img class="img-responsive" src="Resources/images/Fig3.png" alt= "Cloudiness plot"></a>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-3 col-xs-3 "><a href="wind.html">
+                  <img class="img-responsive" src="Resources/images/Fig4.png" alt= "Wind Speed plot"></a>
+                </div>
+              </div>
+       
+      </div>  
+    </div>
+    
+         <!-- Footer -->
+  <footer>
+      <!-- Copyright -->
+      <p>  <span class="glyphicon glyphicon-copyright-mark" aria-hidden="true"></span>
+        Copyright Coding Bootcamp 2019
+         </p>      
+    </footer>
+   
+  </body>
+  </html>
